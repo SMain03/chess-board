@@ -4,9 +4,7 @@ import com.mains03.chessboard.board.move.Move;
 import com.mains03.chessboard.board.move.visitor.*;
 
 public class Board {
-    private ColouredPiece[][] board;
-
-    public Board() {}
+    private final ColouredPiece[][] board;
 
     public Board(ColouredPiece[][] startPosition) {
         board = new ColouredPiece[8][8];
