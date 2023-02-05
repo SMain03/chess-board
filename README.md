@@ -1,1 +1,1 @@
-# chess-baord
+# chess-board
