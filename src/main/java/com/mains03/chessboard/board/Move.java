@@ -1,4 +1,5 @@
 package com.mains03.chessboard.board;
 
-public abstract class Piece {
+public abstract class Move {
+
 }
