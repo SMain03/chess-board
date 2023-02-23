@@ -10,4 +10,8 @@ public class Board {
     public Board makeMove(Move move) {
         return null;
     }
+
+    public boolean pieceAt(int row, int col) {
+        return board[row][col] != null;
+    }
 }
